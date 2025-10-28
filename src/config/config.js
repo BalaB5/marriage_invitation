@@ -33,6 +33,21 @@ const config = {
     favicon: "/images/favicon.ico",
     // List of event agenda/schedule
     agenda: [
+      
+      {
+        // First event name
+        title: "நிச்சயதார்த்தம் ",
+        // Event date (format: YYYY-MM-DD)
+        date: "2025-10-29",
+        // Start time (format: HH:MM)
+        startTime: "10:30 ",
+        // End time (format: HH:MM)
+        endTime: "11:30",
+        // Event venue
+        location: "ஸ்ரீ வெங்கடேஸ்வரா மஹால்",
+        // Full address
+        address: "சத்திரதொண்டமான்பட்டி,மதுரை - 625014",
+      }, 
       {
         // First event name
         title: "திருமணம்",
@@ -43,18 +58,18 @@ const config = {
         // End time (format: HH:MM)
         endTime: "11:30",
         // Event venue
-        location: "்ரீ வெங்கடேஸ்வரா மஹால்",
+        location: "ஸ்ரீ வெங்கடேஸ்வரா மஹால்",
         // Full address
         address: "சத்திரதொண்டமான்பட்டி,மதுரை - 625014",
       },
       {
         // Second event name
-        title: "Resepsi Nikah",
+        title: "திருமண வரவேற்பு",
         date: "2024-12-24",
         startTime: "16:16",
         endTime: "17:30",
-        location: "்ரீ வெங்கடேஸ்வரா மஹால்y",
-        address: "Jசேரன்மாநகர், கோயம்புத்தூர்",
+        location: " ",
+        address: "சேரன்மாநகர், கோயம்புத்தூர்",
       }
       // You can add more agenda items with the same format
     ],
@@ -62,9 +77,9 @@ const config = {
     // Background music settings
     audio: {
       // Music file (choose one or replace with your own file)
-      src: "/audio/b5.mp3", // or /audio/nature-sound.mp3
+      src: "https://github.com/BalaB5/marriage_invitation/raw/refs/heads/main/public/audio/b5.mp3", // or /audio/nature-sound.mp3
       // Music title to display
-      title: "Fulfilling Humming", // or Nature Sound
+      title: "B5 love music", // or Nature Sound
       // Whether music plays automatically when website opens
       autoplay: true,
       // Whether music repeats continuously
