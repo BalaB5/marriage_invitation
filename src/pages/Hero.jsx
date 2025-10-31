@@ -104,7 +104,7 @@ export default function Hero() {
         );
     };
 
-    return (
+  return (
         <>
             <section id="home" className="min-h-screen flex flex-col items-center justify-center px-4 py-16 sm:py-20 text-center relative overflow-hidden">
                 <motion.div
@@ -113,6 +113,7 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="space-y-6 relative z-10"
                 >
+                    {/* Top Tag */}
                     <motion.div
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
@@ -120,10 +121,11 @@ export default function Hero() {
                         className="inline-block mx-auto"
                     >
                         <span className="px-4 py-1 text-sm bg-rose-50 text-rose-600 rounded-full border border-rose-200">
-                            திருமண அழைப்பிதழ் 
+                            Wedding Invitation
                         </span>
                     </motion.div>
 
+                    {/* Names & Greeting */}
                     <div className="space-y-4">
                         <motion.p
                             initial={{ opacity: 0 }}
@@ -131,8 +133,9 @@ export default function Hero() {
                             transition={{ delay: 0.4 }}
                             className="text-gray-500 font-light italic text-base sm:text-lg"
                         >
-                            எங்கள் திருமணத்திற்கு தங்களை அன்புடன் அழைக்கிறோம் 
+                            We cordially invite you to our wedding celebration
                         </motion.p>
+
                         <motion.h2
                             initial={{ scale: 0.8, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
@@ -143,6 +146,7 @@ export default function Hero() {
                         </motion.h2>
                     </div>
 
+                    {/* Event Info Card */}
                     <motion.div
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
@@ -157,6 +161,7 @@ export default function Hero() {
                             </div>
 
                             <div className="space-y-6 text-center">
+                                {/* Date & Time */}
                                 <div className="space-y-3">
                                     <motion.div
                                         initial={{ opacity: 0 }}
@@ -183,29 +188,28 @@ export default function Hero() {
                                     </motion.div>
                                 </div>
 
+                                {/* Divider */}
                                 <div className="flex items-center justify-center gap-3">
                                     <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
                                     <div className="w-2 h-2 rounded-full bg-rose-200" />
                                     <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
                                 </div>
 
+                                {/* Venue */}
                                 <motion.div
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ delay: 1.1 }}
                                     className="space-y-2"
                                 >
-                                    {/* <p className="text-gray-500 font-serif italic text-sm">
-                                        Kepada Yth.
-                                    </p> */}
                                     <p className="text-gray-600 font-medium text-sm">
-                                        ஸ்ரீ வெங்கடேஸ்வரா மஹால்,
-                                    </p> 
+                                        Sri Venkateswara Mahal,
+                                    </p>
                                     <p className="text-gray-600 font-medium text-sm">
-                                        சத்திரதொண்டமான்பட்டி,
+                                        Sathirathondamanpatti,
                                     </p>
                                     <p className="text-rose-500 font-semibold text-lg">
-                                        மதுரை -625014
+                                        Madurai - 625014
                                     </p>
                                 </motion.div>
                             </div>
@@ -215,12 +219,15 @@ export default function Hero() {
                             </div>
                         </div>
 
+                        {/* Soft glow decorations */}
                         <div className="absolute -top-2 -right-2 w-16 sm:w-24 h-16 sm:h-24 bg-rose-100/20 rounded-full blur-xl" />
                         <div className="absolute -bottom-2 -left-2 w-16 sm:w-24 h-16 sm:h-24 bg-rose-100/20 rounded-full blur-xl" />
                     </motion.div>
 
+                    {/* Countdown */}
                     <CountdownTimer targetDate={config.data.date} />
 
+                    {/* Heart Animation */}
                     <div className="pt-6 relative">
                         <FloatingHearts />
                         <motion.div
@@ -240,5 +247,5 @@ export default function Hero() {
                 </motion.div>
             </section>
         </>
-    )
+    );
 }

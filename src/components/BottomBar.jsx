@@ -11,9 +11,10 @@ import {
 import { cn } from "@/lib/utils";
 
 const menuItems = [
-  { icon: Home, label: 'அழைப்பிதழ்', href: '#home', id: 'home' },
-  { icon: CalendarHeart, label: 'நிகழ்வு', href: '#event', id: 'event' },
-  { icon: MapPin, label: 'இடம்', href: '#location', id: 'location' },
+{ icon: Home, label: 'Invitation', href: '#home', id: 'home' },
+{ icon: CalendarHeart, label: 'Event', href: '#event', id: 'event' },
+{ icon: MapPin, label: 'Location', href: '#location', id: 'location' },
+
   // { icon: Gift, label: 'Hadiah', href: '#gifts', id: 'gifts' },
   // { icon: MessageCircleHeart, label: 'Harapan', href: '#wishes', id: 'wishes' },
 ];

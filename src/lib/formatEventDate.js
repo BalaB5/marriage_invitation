@@ -40,32 +40,32 @@ export const formatEventDate = (isoString, format = 'full') => {
     };
 
     // Indonesian month names mapping
-    const monthsTamil = {
-        'January': 'ஜனவரி',
-        'February': 'பிப்ரவரி',
-        'March': 'மார்ச்',
-        'April': 'ஏப்ரல்',
-        'May': 'மே',
-        'June': 'ஜூன்',
-        'July': 'ஜூலை',
-        'August': 'ஆகஸ்ட்',
-        'September': 'செப்டம்பர்',
-        'October': 'அக்டோபர்',
-        'November': 'நவம்பர்',
-        'December': 'டிசம்பர்'
-    };
+const monthsEnglish = {
+  'January': 'January',
+  'February': 'February',
+  'March': 'March',
+  'April': 'April',
+  'May': 'May',
+  'June': 'June',
+  'July': 'July',
+  'August': 'August',
+  'September': 'September',
+  'October': 'October',
+  'November': 'November',
+  'December': 'December'
+};
 
     // Indonesian day names mapping
-    const daysTamil = {
-        'Sunday': 'ஞாயிறு',
-        'Monday': 'திங்கட்கிழமை',
-        'Tuesday': 'செவ்வாய்க்கிழமை',
-        'Wednesday': 'புதன்கிழமை',
-        'Thursday': 'வியாழக்கிழமை',
-        'Friday': 'வெள்ளிக்கிழமை',
-        'Saturday': 'சனிக்கிழமை'
+    const daysEnglish = {
+  'Sunday': 'Sunday',
+  'Monday': 'Monday',
+  'Tuesday': 'Tuesday',
+  'Wednesday': 'Wednesday',
+  'Thursday': 'Thursday',
+  'Friday': 'Friday',
+  'Saturday': 'Saturday'
+};
 
-    };
 
     let formatted = date.toLocaleDateString('en-US', formats[format]);
 
@@ -75,12 +75,12 @@ export const formatEventDate = (isoString, format = 'full') => {
     }
 
     // Replace English month and day names with Indonesian ones
-    Object.keys(monthsTamil).forEach(english => {
-        formatted = formatted.replace(english, monthsTamil[english]);
+    Object.keys(monthsEnglish).forEach(english => {
+        formatted = formatted.replace(english, monthsEnglish[english]);
     });
 
-    Object.keys(daysTamil).forEach(english => {
-        formatted = formatted.replace(english, daysTamil[english]);
+    Object.keys(daysEnglish).forEach(english => {
+        formatted = formatted.replace(english, daysEnglish[english]);
     });
 
     // Format adjustment for full date

@@ -30,7 +30,7 @@ export default function Events() {
                             transition={{ delay: 0.2 }}
                             className="inline-block text-rose-500 font-medium mb-2"
                         >
-                           தேதிகளைக் குறித்துக் கொள்ளுங்கள்.
+                            Save the Dates
                         </motion.span>
 
                         <motion.h3
@@ -39,7 +39,8 @@ export default function Events() {
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
                             className="text-4xl md:text-5xl font-serif text-gray-800 leading-tight"
-                        > திருமண நிகழ்வுகள்
+                        >
+                            Wedding Events
                         </motion.h3>
 
                         <motion.p
@@ -49,8 +50,8 @@ export default function Events() {
                             transition={{ delay: 0.4 }}
                             className="text-gray-500 max-w-md mx-auto"
                         >
-                            இந்த சிறப்பு நாளை எங்கள் காதல் பயணத்தின் தொடக்கமாகக் கொண்டாட உங்களை அழைக்கிறோம்.
-                              </motion.p>
+                            We invite you to celebrate this special day as the beautiful beginning of our journey of love.
+                        </motion.p>
 
                         {/* Decorative Line */}
                         <motion.div
@@ -81,5 +82,5 @@ export default function Events() {
                 </motion.div>
             </section>
         </>
-    )
+    );
 }
