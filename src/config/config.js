@@ -36,7 +36,7 @@ const config = {
     location: "Sri Venkateswara Mahal",
 
     // Full address of the wedding venue
-    address: "Sathirathondamanpatti, Madurai - 625014",
+    address: "Chatrathondamanpatti, Madurai - 625014",
 
     // Image that appears when the link is shared on social media
     ogImage: "/images/og-image.jpg",
@@ -49,11 +49,11 @@ const config = {
       {
         // Engagement
         title: "Engagement",
-        date: "2025-10-29",
-        startTime: "10:30",
-        endTime: "11:30",
+        date: "2025-11-29",
+        startTime: "06:00",
+        endTime: "09:00",
         location: "Sri Venkateswara Mahal",
-        address: "Sathirathondamanpatti, Madurai - 625014",
+        address: "Chatrathondamanpatti, Madurai - 625014",
       },
       {
         // Wedding
@@ -62,16 +62,16 @@ const config = {
         startTime: "10:30",
         endTime: "11:30",
         location: "Sri Venkateswara Mahal",
-        address: "Sathirathondamanpatti, Madurai - 625014",
+        address: "Chatrathondamanpatti, Madurai - 625014",
       },
       {
         // Reception
         title: "Wedding Reception",
-        date: "2024-12-24",
-        startTime: "16:16",
-        endTime: "17:30",
-        location: " ",
-        address: "Seranmanagar, Coimbatore",
+        date: "2025-12-1",
+        startTime: "06:00",
+        endTime: "09:00",
+        location: "RG mahal",
+        address: "Cheran ma Nagar, Coimbatore - 641051",
       },
     ],
 
