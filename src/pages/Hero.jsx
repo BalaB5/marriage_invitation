@@ -206,7 +206,7 @@ export default function Hero() {
                                         Sri Venkateswara Mahal,
                                     </p>
                                     <p className="text-gray-600 font-medium text-sm">
-                                        Sathirathondamanpatti,
+                                        Chatrathondamanpatti,
                                     </p>
                                     <p className="text-rose-500 font-semibold text-lg">
                                         Madurai - 625014
