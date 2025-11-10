@@ -30,7 +30,7 @@ const config = {
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7857.142567962703!2d78.1615756!3d10.0521913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00b9003b205e67%3A0xea8c20e74b42ad9!2sVenkateswara%20Mahal!5e0!3m2!1sen!2sin!4v1761591212800!5m2!1sen!2sin",
 
     // Event time
-    time: "10:30 - 11:30",
+    time: "10:30am - 11:30am ",
 
     // Venue/building name
     location: "Sri Venkateswara Mahal",
@@ -50,8 +50,8 @@ const config = {
         // Engagement
         title: "Engagement",
         date: "2025-11-29",
-        startTime: "06:00",
-        endTime: "09:00",
+        startTime: "06:00pm",
+        endTime: "09:00pm",
         location: "Sri Venkateswara Mahal",
         address: "Chatrathondamanpatti, Madurai - 625014",
       },
@@ -59,8 +59,8 @@ const config = {
         // Wedding
         title: "Wedding Ceremony",
         date: "2025-11-30",
-        startTime: "10:30",
-        endTime: "11:30",
+        startTime: "10:30am",
+        endTime: "11:30am",
         location: "Sri Venkateswara Mahal",
         address: "Chatrathondamanpatti, Madurai - 625014",
       },
@@ -68,8 +68,8 @@ const config = {
         // Reception
         title: "Wedding Reception",
         date: "2025-12-1",
-        startTime: "06:00",
-        endTime: "09:00",
+        startTime: "06:00pm",
+        endTime: "09:00pm",
         location: "RG mahal",
         address: "Cheran ma Nagar, Coimbatore - 641051",
       },
